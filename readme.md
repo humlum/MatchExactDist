@@ -83,4 +83,4 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
 
 ## Auxiliary codes (`~/auxiliary`)
 ### `ExactMatchDist.m` 
-Find matches by minimizing objective function in   (Matlab script)
+Find matches
