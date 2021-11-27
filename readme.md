@@ -35,7 +35,7 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
   : Options for weighing matrix of Mahalanobis distance metric 
 
 
-&nbsp;&nbsp;
+&nbsp;
 
 ### `EventStudyDid.ado` 
 Matching-based event-study regression model described in Section OA2.2.2 of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
@@ -82,7 +82,7 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
   : Export graphical output 
 
 
-&nbsp;&nbsp;
+&nbsp;
 ## Auxiliary codes (`~/auxiliary`)
 ### `ExactMatchDist.m` 
 Find matches
