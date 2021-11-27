@@ -85,4 +85,4 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
 &nbsp;
 ## Auxiliary codes (`~/auxiliary`)
 ### `ExactMatchDist.m` 
-Find matches
+Find matches.
