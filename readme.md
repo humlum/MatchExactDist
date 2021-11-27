@@ -83,6 +83,6 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
 
 
 &nbsp;
-## Auxiliary codes (`~/auxiliary`)
+## Auxiliary Codes (`~/auxiliary`)
 ### `ExactMatchDist.m` 
 Program for finding matches called by `ExactMatchDist.ado'.
