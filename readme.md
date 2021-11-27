@@ -3,7 +3,7 @@ Software that implement the matching algorithm and event-study regression model 
 &nbsp;
 ## Main Scripts 
 ### `ExactMatchDist.ado` 
-Exact-distance matching procedure described in Section OA1.5.1 in [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf) for details.
+Program that implement the exact-distance matching procedure described in Section OA1.5.1 in [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf) for details.
 
 ```
 syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist) complier(varlist max=1) folder(string) file(string) weight(string)
@@ -38,7 +38,7 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
 &nbsp;
 
 ### `EventStudyDid.ado` 
-Matching-based event-study regression model described in Section OA2.2.2 of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
+Program for the matching-based event-study regression model described in Section OA2.2.2 of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
 
 ```
 syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist) complier(varlist max=1) folder(string) file(string) weight(string)
@@ -85,4 +85,4 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
 &nbsp;
 ## Auxiliary codes (`~/auxiliary`)
 ### `ExactMatchDist.m` 
-Find matches.
+Program for finding matches called by `ExactMatchDist.ado'.
