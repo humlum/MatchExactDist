@@ -67,13 +67,13 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
   : Output file name
 
 `pre`
-  : Number of pre-years in event study
+  : Number of pre-years in event study window
 
 `post`
-  : Number of post-years in event study
+  : Number of post-years in event study window
 
 `survive`
-  : Condition that unit survives in period
+  : Condition that unit survives in a period
 
 `reg_out`
   : Save regression output
