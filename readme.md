@@ -1,5 +1,5 @@
 # MatchExactDist
-This code repository implements the matching-based event studies of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
+This code repository implements the exact-distance matching procedure of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
 
 ## Main Scripts 
 
@@ -37,7 +37,7 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
 
 
 ### `EventStudyDid.ado` 
-Matching-based event studies described in Section OA2.2.2 of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
+Matching-based event-study regression model described in Section OA2.2.2 of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
 
 ```
 syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist) complier(varlist max=1) folder(string) file(string) weight(string)
