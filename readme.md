@@ -3,7 +3,7 @@ Software that implement the matching algorithm and event-study regression model 
 &nbsp;
 ## Main Scripts 
 ### `ExactMatchDist.ado` 
-Program that implement the exact-distance matching procedure described in Section OA1.5.1 in [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf) for details.
+Program that implement the exact-distance matching procedure described in Section OA1.5.1 in [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
 
 ```
 syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist) complier(varlist max=1) folder(string) file(string) weight(string)
