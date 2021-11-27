@@ -1,5 +1,5 @@
 # MatchExactDist
-This code repository implements the exact-distance matching procedure of [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
+Software that implements the matching algorithm and event-study regression model in [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
 
 ## Main Scripts 
 
