@@ -21,7 +21,7 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
   : Time variable
 
 `exact`
-  : Variables to match exactly    
+  : Variables for exact matching   
 
 `distance`
   : Variables for distance matching
@@ -30,7 +30,7 @@ syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist)
   : Output folder
 
 `file`
-  : Filename for matched data set
+  : File name for matched data set
 
 `weight`
   : Options for weighing matrix of Mahalanobis distance metric 
