@@ -1,6 +1,5 @@
 # MatchExactDist
 Software that implement the matching algorithm and event-study regression model in [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
-
 &nbsp;
 ## Main Scripts 
 ### `ExactMatchDist.ado` 
