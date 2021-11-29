@@ -6,7 +6,7 @@ Software that implement the matching algorithm and event-study regression model 
 Program that implements the exact-distance matching procedure described in Section OA1.5.1 in [Humlum (2021)](https://andershumlum.com/s/humlumJMP.pdf).
 
 ```
-syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist) complier(varlist max=1) folder(string) file(string) weight(string)
+syntax varlist [if] , id(varlist) time(varlist) exact(varlist) distance(varlist) folder(string) file(string) weight(string)
 ```
 #### Description of arguments
 
